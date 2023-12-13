@@ -247,13 +247,33 @@
   }
   
   show raw: it => {
-    set text(font: "Lucida Sans Typewriter")
+    set text(font: ("Lucida Sans Typewriter", "Source Han Sans HW SC"))
     if it.lines.len() > 1 [
         #it
         #fake-par
     ] else [
         #it
     ]
+  }
+
+  show enum: it => {
+    it
+    fake-par
+  }
+
+  show list: it => {
+    it
+    fake-par
+  }
+
+  show figure: it => {
+    it
+    fake-par
+  }
+
+  show table: it => {
+    it
+    fake-par
   }
 
   body
