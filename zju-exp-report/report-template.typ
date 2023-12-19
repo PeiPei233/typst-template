@@ -119,7 +119,7 @@
   set text(font: song, size: xiaosi, lang: "zh")
   set block(width: 100%)
   set table(inset: 0pt,stroke: none)
-  show table: set block(spacing: 0.6em)
+  show table: set block(spacing: 0.8em)
   text(font: "Source Han Serif SC", size: xiaosan, weight: "bold")[浙江大学实验报告]
   v(15pt)
   table(
