@@ -90,9 +90,9 @@
   collaborator: " ",
   advisor: " ",
   location: " ",
-  date-year: " ",
-  date-month: " ",
-  date-day: " ",
+  year: " ",
+  month: " ",
+  day: " ",
 )
 
 #let report-title(
@@ -152,9 +152,9 @@
     columns: (4fr, 43%, 4fr, 9%, 1fr, 5%, 1fr, 5%, 1fr),
     info-key("实验地点："), info-value(info.location),
     info-key("实验日期："),
-    info-value(info.date-year), info-key("年"),
-    info-value(info.date-month), info-key("月"),
-    info-value(info.date-day), info-key("日"),
+    info-value(info.year), info-key("年"),
+    info-value(info.month), info-key("月"),
+    info-value(info.day), info-key("日"),
   )
 }
 
@@ -186,6 +186,9 @@
     major: major,
     location: location,
     type: type,
+    year: year,
+    month: month,
+    day: day,
     date: year + " 年 " + month + " 月 " + day + " 日 ",
   )
 
